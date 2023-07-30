@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(121, 118, 118);
+    /* width: 260px; */
+    height: 100vh;
+    font-family: 'PT Serif', serif;
+    font-size: 10px;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 180px 45px 180px 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 25px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 85vw;
+    font-family: "PT Serif", serif;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.container1 {
+    /* background-color: rebeccapurple; */
+    height: 28vh;
+    width: 70vw;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    font-family: "Source Code Pro", monospace;
+    font-weight: bold;
+    border: 2px solid black;
+    border-style: dashed;
+}
+
+.container2 {
+    /* background-color: rebeccapurple; */
+    height: 21vh;
+    width: 70vw;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    font-family: "Source Code Pro", monospace;
+    font-weight: bold;
+    border: 2px solid black;
+    border-style: dashed;
+}
+
+.container3 {
+    /* background-color: rebeccapurple; */
+    height: 23vh;
+    width: 70vw;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    font-family: "Source Code Pro", monospace;
+    font-weight: bold;
+    border: 2px solid black;
+    border-style: dashed;
+}
+
+.container4 {
+    /* background-color: rebeccapurple; */
+    height: 20vh;
+    width: 70vw;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    font-family: "Source Code Pro", monospace;
+    font-weight: bold;
+    border: 2px solid black;
+    border-style: dashed;
+}
+
+mark {
+    background-color: black;
+    color: aquamarine;
+}
+
+.Desktop {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.Travel {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.MediCare {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.Bakery {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.Desktop ul {
+    padding-left: 20px;
+}
+
+.Travel ul {
+    padding-left: 20px;
+}
+
+.MediCare ul {
+    padding-left: 20px;
+}
+
+.Bakery ul {
+    padding-left: 20px;
+}
+
+.main a {
+    font-style: none;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 25px;
+    color: black;
+}
+
+.main a:hover {
+    color: red;
+}
+
+.devpic img {
+    height: 150px;
+    width: 150px;
+    margin: 80px 0 0 20px;
+}
+
+#desktopPic img {
+    height: 140px;
+    width: 140px;
+    margin: 30px 10px 10px 10px;
+}
+
+#travelPic img {
+    height: 120px;
+    width: 140px;
+    margin: 20px 10px 10px 10px;
+}
+
+#mediCarePic img {
+    height: 130px;
+    width: 140px;
+    margin: 20px 10px 10px 10px;
+}
+
+#bakeryPic img {
+    height: 110px;
+    width: 140px;
+    margin: 20px 10px 10px 10px;
+}
+
+.sidebarGo {
+    transform: translate(-260px, 0px);
+    position: absolute;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross {
+    margin-left: 175px;
+}
+
+/* Media Queries */
+
+@media (max-width: 479px) {
+
+    .sidebar {
+        position: absolute;
+    }
+
+    .devPic {
+        display: none;
+    }
+
+    .Desktop {
+        font-size: 5px;
+    }
+
+    .Travel {
+        font-size: 5px;
+    }
+
+    .MediCare {
+        font-size: 5px;
+    }
+
+    .Bakery {
+        font-size: 5px;
+    }
+}
