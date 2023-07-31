@@ -237,6 +237,10 @@ textarea {
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
+  .main {
+    margin-top: -50px;
+  }
+
   .sidebar {
     position: absolute;
   }
@@ -279,6 +283,9 @@ textarea {
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
+  .main {
+    margin-top: -50px;
+  }
 
   .sidebar {
     position: absolute;
