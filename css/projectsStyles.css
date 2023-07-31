@@ -211,6 +211,107 @@ mark {
 
 /* Media Queries */
 
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .sidebar {
+        position: absolute;
+    }
+
+    .Desktop {
+        font-size: 10px;
+    }
+
+    .Travel {
+        font-size: 10px;
+    }
+
+    .MediCare {
+        font-size: 10px;
+    }
+
+    .Bakery {
+        font-size: 9px;
+    }
+
+    #desktopPic img {
+        height: 130px;
+        width: 130px;
+        margin: 30px 10px 10px 10px;
+    }
+
+    #travelPic img {
+        height: 100px;
+        width: 130px;
+        margin: 20px 10px 10px 10px;
+    }
+
+    #mediCarePic img {
+        height: 110px;
+        width: 130px;
+        margin: 20px 10px 10px 10px;
+    }
+
+    #bakeryPic img {
+        height: 90px;
+        width: 130px;
+        margin: 20px 10px 10px 10px;
+    }
+
+    .cross {
+        margin-left: 195px;
+    }
+}
+
+@media (max-width: 767px) {
+    .sidebar {
+        position: absolute;
+    }
+
+    .Desktop {
+        font-size: 7px;
+    }
+
+    .Travel {
+        font-size: 7px;
+    }
+
+    .MediCare {
+        font-size: 6px;
+    }
+
+    .Bakery {
+        font-size: 6px;
+    }
+
+    #desktopPic img {
+        height: 130px;
+        width: 130px;
+        margin: 30px 10px 10px 10px;
+    }
+
+    #travelPic img {
+        height: 100px;
+        width: 130px;
+        margin: 20px 10px 10px 10px;
+    }
+
+    #mediCarePic img {
+        height: 110px;
+        width: 130px;
+        margin: 20px 10px 10px 10px;
+    }
+
+    #bakeryPic img {
+        height: 90px;
+        width: 130px;
+        margin: 20px 10px 10px 10px;
+    }
+
+    .cross {
+        margin-left: 195px;
+    }
+}
+
 @media (max-width: 479px) {
 
     .sidebar {

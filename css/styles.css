@@ -195,17 +195,17 @@ textarea {
 @media (min-width: 992px) and (max-width: 1199px) {}
 
 /********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {}
-
-/********** Extra small devices only **********/
-@media (max-width: 767px) {}
-
-
-/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
-@media (max-width: 479px) {
-
+@media (min-width: 768px) and (max-width: 991px) {
   .sidebar {
     position: absolute;
+  }
+
+  #aboutP {
+    font-size: 12px;
+  }
+
+  #aboutH {
+    font-size: 15px;
   }
 
   .infocontainer {
@@ -229,4 +229,92 @@ textarea {
     padding: 3px;
     font-size: 15px;
   }
+
+  .cross {
+    margin-left: 195px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .sidebar {
+    position: absolute;
+  }
+
+  .infocontainer {
+    margin-left: 50px;
+  }
+
+  #aboutP {
+    font-size: 10px;
+  }
+
+  #aboutH {
+    font-size: 13px;
+  }
+
+  .devPic img {
+    width: 9rem;
+    height: 18rem;
+  }
+
+  .contactform {
+    margin: 0 20px;
+  }
+
+  .contactform form div input,
+  textarea {
+    width: 60vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+    font-size: 15px;
+  }
+
+  .cross {
+    margin-left: 195px;
+  }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+  .sidebar {
+    position: absolute;
+  }
+
+  .infocontainer {
+    margin-left: 50px;
+  }
+
+  #aboutP {
+    font-size: 9px;
+  }
+
+  #aboutH {
+    font-size: 12px;
+  }
+
+  .devPic img {
+    width: 8rem;
+    height: 16rem;
+  }
+
+  .contactform {
+    margin: 0 20px;
+  }
+
+  .contactform form div input,
+  textarea {
+    width: 60vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+    font-size: 15px;
+  }
+
+    .cross {
+      margin-left: 195px;
+    }
 }
