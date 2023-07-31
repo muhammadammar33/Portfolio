@@ -268,19 +268,19 @@ mark {
     }
 
     .Desktop {
-        font-size: 7px;
+        font-size: 6px;
     }
 
     .Travel {
-        font-size: 7px;
+        font-size: 6px;
     }
 
     .MediCare {
-        font-size: 6px;
+        font-size: 5px;
     }
 
     .Bakery {
-        font-size: 6px;
+        font-size: 5px;
     }
 
     #desktopPic img {
@@ -323,18 +323,18 @@ mark {
     }
 
     .Desktop {
-        font-size: 5px;
+        font-size: 4px;
     }
 
     .Travel {
-        font-size: 5px;
+        font-size: 4px;
     }
 
     .MediCare {
-        font-size: 5px;
+        font-size: 4px;
     }
 
     .Bakery {
-        font-size: 5px;
+        font-size: 4px;
     }
 }

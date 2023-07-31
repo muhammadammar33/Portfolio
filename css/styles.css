@@ -246,11 +246,11 @@ textarea {
   }
 
   #aboutP {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   #aboutH {
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .devPic img {
@@ -289,11 +289,11 @@ textarea {
   }
 
   #aboutP {
-    font-size: 9px;
+    font-size: 7px;
   }
 
   #aboutH {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .devPic img {
@@ -314,7 +314,7 @@ textarea {
     font-size: 15px;
   }
 
-    .cross {
-      margin-left: 195px;
-    }
+  .cross {
+    margin-left: 195px;
+  }
 }
