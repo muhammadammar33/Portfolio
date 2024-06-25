@@ -6,11 +6,11 @@
 
 .top-tags {
     bottom: auto;
-    top: 35px;
+    top: 1%;
 }
 
 .tags {
-    color: #ff0000;
+    color: #00ff00;
     opacity: 0.6;
     position: absolute;
     bottom: 0;
@@ -21,4 +21,23 @@
 
 .bottom-tag-html {
     margin-left: -35%;
+}
+
+.top-tag-html {
+    margin-left: -35%;
+}
+
+.container {
+    width: 100%;
+    will-change: contents;
+    height: 90%;
+    min-height: 60%;
+    position: absolute;
+    opacity: 0;
+    top: 5%;
+    margin: 0 auto;
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
 }
