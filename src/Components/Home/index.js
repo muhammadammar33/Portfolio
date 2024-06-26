@@ -5,6 +5,7 @@ import nameA from "../../assets/images/name-a.png"
 import nameC from "../../assets/images/name-c.png"
 import "./index.scss"
 import AnimatedLetters from "../AnimatedLetters/index"
+import Logo from "./Logo/index"
 
 const Home = () => {
 
@@ -44,6 +45,7 @@ const Home = () => {
                     <span className='bottom-p-tag'>&lt;/p&gt;</span>
                     <Link to="/contact" className="flat-button">CONTACT ME</Link>
                 </div>
+                <Logo />
             </div>
         </>
     )
