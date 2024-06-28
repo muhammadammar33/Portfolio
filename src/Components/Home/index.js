@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import nameM from "../../assets/images/name-m.png";
+import nameM from "../../assets/images/name-m.png"
 import nameA from "../../assets/images/name-a.png"
 import nameC from "../../assets/images/name-c.png"
 import "./index.scss"
