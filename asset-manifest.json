@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/https//muhammadammar33.github.io/Portfolio/static/css/main.930a22dd.css",
-    "main.js": "/https//muhammadammar33.github.io/Portfolio/static/js/main.4e99a6fe.js",
-    "static/js/453.32bc8d24.chunk.js": "/https//muhammadammar33.github.io/Portfolio/static/js/453.32bc8d24.chunk.js",
-    "static/media/logo-pic.png": "/https//muhammadammar33.github.io/Portfolio/static/media/logo-pic.ee283ac49140dc927367.png",
-    "static/media/logo-m.png": "/https//muhammadammar33.github.io/Portfolio/static/media/logo-m.f51d5c3d4fdbf22ff59e.png",
-    "static/media/name-m.png": "/https//muhammadammar33.github.io/Portfolio/static/media/name-m.8d19c86b16d3d4eff4a7.png",
-    "static/media/name-a.png": "/https//muhammadammar33.github.io/Portfolio/static/media/name-a.83385fea139663942e02.png",
-    "static/media/name-c.png": "/https//muhammadammar33.github.io/Portfolio/static/media/name-c.f15093da97630fe3bfca.png",
-    "static/media/logo-sub.png": "/https//muhammadammar33.github.io/Portfolio/static/media/logo-sub.df42bfaed1f81cdcd519.png",
-    "static/media/helvetica-neu.ttf": "/https//muhammadammar33.github.io/Portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/LaBelleAurore.woff2": "/https//muhammadammar33.github.io/Portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/CoolveticaRg-Regular.woff2": "/https//muhammadammar33.github.io/Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "index.html": "/https//muhammadammar33.github.io/Portfolio/index.html",
-    "main.930a22dd.css.map": "/https//muhammadammar33.github.io/Portfolio/static/css/main.930a22dd.css.map",
-    "main.4e99a6fe.js.map": "/https//muhammadammar33.github.io/Portfolio/static/js/main.4e99a6fe.js.map",
-    "453.32bc8d24.chunk.js.map": "/https//muhammadammar33.github.io/Portfolio/static/js/453.32bc8d24.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.300e0dbb.css",
+    "main.js": "/Portfolio/static/js/main.29bdebe6.js",
+    "static/js/453.32bc8d24.chunk.js": "/Portfolio/static/js/453.32bc8d24.chunk.js",
+    "static/media/logo-pic.png": "/Portfolio/static/media/logo-pic.ee283ac49140dc927367.png",
+    "static/media/logo-m.png": "/Portfolio/static/media/logo-m.f51d5c3d4fdbf22ff59e.png",
+    "static/media/name-m.png": "/Portfolio/static/media/name-m.8d19c86b16d3d4eff4a7.png",
+    "static/media/name-a.png": "/Portfolio/static/media/name-a.83385fea139663942e02.png",
+    "static/media/name-c.png": "/Portfolio/static/media/name-c.f15093da97630fe3bfca.png",
+    "static/media/logo-sub.png": "/Portfolio/static/media/logo-sub.df42bfaed1f81cdcd519.png",
+    "static/media/helvetica-neu.ttf": "/Portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/Portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/Portfolio/index.html",
+    "main.300e0dbb.css.map": "/Portfolio/static/css/main.300e0dbb.css.map",
+    "main.29bdebe6.js.map": "/Portfolio/static/js/main.29bdebe6.js.map",
+    "453.32bc8d24.chunk.js.map": "/Portfolio/static/js/453.32bc8d24.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.930a22dd.css",
-    "static/js/main.4e99a6fe.js"
+    "static/css/main.300e0dbb.css",
+    "static/js/main.29bdebe6.js"
   ]
 }
