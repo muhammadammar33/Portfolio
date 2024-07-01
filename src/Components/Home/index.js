@@ -7,6 +7,7 @@ import "./index.scss"
 import AnimatedLetters from "../AnimatedLetters/index"
 import Logo from "./Logo/index"
 import Loader from 'react-loaders'
+import Starfield from 'react-starfield'
 
 const Home = () => {
 
@@ -48,6 +49,12 @@ const Home = () => {
                 </div>
                 <Logo />
             </div>
+            <Starfield
+                starCount={1000}
+                starColor={[255, 255, 255]}
+                speedFactor={0.05}
+                backgroundColor="black"
+            />
             <Loader type='pacman'/>
         </>
     )

@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCss3, faGitAlt, faGithub, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
+import Starfield from 'react-starfield'
 
 const About = () => {
 
@@ -74,6 +75,12 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <Starfield
+                starCount={1000}
+                starColor={[255, 255, 255]}
+                speedFactor={0.05}
+                backgroundColor="black"
+            />
             <Loader type='pacman'/>
         </>
     )
