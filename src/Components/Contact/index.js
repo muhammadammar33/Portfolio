@@ -4,6 +4,7 @@ import AnimatedLetters from '../AnimatedLetters/index';
 import { useEffect, useState, useRef } from 'react';
 import Starfield from 'react-starfield';
 import emailjs from '@emailjs/browser';
+import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 
 const Contact = () => {
 
@@ -70,6 +71,22 @@ const Contact = () => {
                             </ul>
                         </form>
                     </div>
+                </div>
+                <div className='info-map'>
+                    Muhammad Ammar Cheema
+                    <br />
+                    Pakistan
+                    <br />
+                    Hostel City, Islamabad
+                    <span>muhammadammar7747@gmail.com</span>
+                </div>
+                <div className='map-wrap'>
+                    <MapContainer center={[33.6573, 73.1569]} zoom={13}>
+                        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+                        <Marker position={[33.6573, 73.1569]}>
+                            <Popup>Ammar stays here, come over for a cup of chaye 😊</Popup>
+                        </Marker>
+                    </MapContainer>
                 </div>
             </div>
             <Starfield
