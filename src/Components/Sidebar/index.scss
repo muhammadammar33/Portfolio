@@ -33,7 +33,7 @@
         width: 100%;
 
         a{
-            font-size: 28px;
+            font-size: 22px;
             color: #4d4d4e;
             display: block;
             line-height: 51px;
@@ -52,12 +52,12 @@
                     opacity: 0;
                 }
 
-                &::after{
+                &:after{
                     opacity: 1;
                 }
             }
 
-            &::after{
+            &:after{
                 content: '';
                 font-size: 40%;
                 letter-spacing: 2px;
@@ -67,6 +67,7 @@
                 width: 100%;
                 text-align: center;
                 opacity: 0;
+                -webkit-transition: all 0.3s ease-out;
                 transition: all 0.3s ease-out;
                 font-weight: bold;
             }
@@ -113,6 +114,7 @@
                 display: block;
                 font-size: 18px;
                 line-height: 16px;
+                color: #4d4d4e;
 
                 &:hover svg {
                     color: #ff0000;
@@ -130,6 +132,94 @@
             a.whatsapp:hover svg {
                 color: #25D366;
             }
+        }
+    }
+}
+
+.hamburger-icon,
+.close-icon {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .nav-bar {
+        background: transparent;
+        position: initial;
+        height: auto;
+        min-height: auto;
+
+        ul,
+        nav {
+            display: none;
+        }
+
+        nav {
+            width: 100%;
+            top: 0;
+            left: 0;
+            background: #181818;
+            height: 100%;
+            margin: 0;
+            z-index: 2;
+            position: fixed;
+
+            &.mobile-show {
+                display: block;
+            }
+
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            a:after {
+                opacity: 1;
+                position: initial;
+                width: auto;
+                margin-left: 10px;
+            }
+
+            a svg {
+                opacity: 1 !important;
+            }
+        }
+
+        ul {
+            width: 100%;
+            top: 1;
+            left: 10;
+            z-index: 2;
+            position: fixed;
+
+            &.mobile-show {
+                display: block;
+            }
+
+            li {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            li:after {
+                opacity: 1;
+                position: initial;
+                width: auto;
+                margin-left: 10px;
+            }
+
+            li svg {
+                opacity: 1 !important;
+            }
+        }
+
+        .hamburger-icon,
+        .close-icon {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            display: block;
         }
     }
 }

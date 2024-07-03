@@ -10,7 +10,7 @@
 
     h1 {
         color: #fff;
-        font-size: 42px;
+        font-size: 400%;
         margin: 0;
         font-family: "Coolvetica";
         font-weight: 400;
@@ -111,5 +111,60 @@
             background-color: #ff0000;
             color: #444;
         }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .tags,
+    .home-page h1:before,
+    .home-page h1:after,
+    .bottom-h1-tag,
+    .home-page h2:before,
+    .bottom-p-tag {
+        display: none;
+    }
+
+    .home-page .text-zone {
+        position: initial;
+        width: 100%;
+        transform: none;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 100px;
+    }
+
+    .home-page h1 {
+        font-size: 200%;
+
+        img {
+            width: 16px;
+        }
+    }
+
+    .home-page .flat-button {
+        float: none;
+        display: block;
+        width: 124px;
+    }
+
+    .logo-container {
+        position: relative;
+        width: 100px;
+        height: auto;
+        top: 50px;
+        right: 0;
+        box-sizing: border-box;
+        margin: auto;
+        left: 0;
+    }
+
+    .logo-container svg {
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: 0;
+        margin: auto;
     }
 }

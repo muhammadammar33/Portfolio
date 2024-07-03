@@ -35,7 +35,7 @@
     width: 100%;
     will-change: contents;
     height: 90%;
-    min-height: 60%;
+    min-height: 566px;
     position: absolute;
     opacity: 0;
     top: 5%;
@@ -48,6 +48,41 @@
 
 .about-page,
 .contact-page {
+    h1 {
+        font-size: 53px;
+        font-family: 'Coolvetica';
+        color: #ff0000;
+        font-weight: 400;
+        margin-top: 0;
+        left: 10px;
+        margin-bottom: 40px;
+        position: relative;
+
+        &::before {
+            content: '<h1>';
+            font-family: 'La Belle Aurore';
+            color: #00ff00;
+            font-size: 18px;
+            position: absolute;
+            margin-top: -5%;
+            opacity: 0.6;
+            margin-left: -5%;
+            animation: fadeIn 1s backwards;
+        }
+    }
+
+    .bottom-h1-tag {
+        content: '';
+        font-family: 'La Belle Aurore';
+        color: #00ff00;
+        font-size: 18px;
+        position: absolute;
+        opacity: 0.6;
+        margin-left: -5%;
+        margin-top: -10%;
+        animation: fadeIn 1s backwards;
+    }
+
     .text-zone{
         position: absolute;
         left: 20%;
@@ -57,40 +92,6 @@
         vertical-align: middle;
         display: table-cell;
         max-height: 90%;
-
-        h1 {
-            font-size: 53px;
-            font-family: 'Coolvetica';
-            color: #ff0000;
-            font-weight: 400;
-            margin-top: 0;
-            left: 10px;
-            margin-bottom: 10%;
-    
-            &::before {
-                content: '<h1>';
-                font-family: 'La Belle Aurore';
-                color: #00ff00;
-                font-size: 18px;
-                position: absolute;
-                margin-top: -5%;
-                opacity: 0.6;
-                margin-left: -5%;
-                animation: fadeIn 1s backwards;
-            }
-        }
-
-        .bottom-h1-tag {
-            content: '';
-            font-family: 'La Belle Aurore';
-            color: #00ff00;
-            font-size: 18px;
-            position: absolute;
-            opacity: 0.6;
-            margin-left: -5%;
-            margin-top: -10%;
-            animation: fadeIn 1s backwards;
-        }
 
         p {
             font-size: 13px;
@@ -145,5 +146,48 @@
         &:hover {
             color: #fff;
         }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .page {
+        position: initial;
+    }
+
+    .about-page h1:before,
+    .contact-page h1:before,
+    .top-p-tag,
+    .bottom-h1-tag {
+        display: none;
+    }
+
+    .container {
+        position: initial;
+
+        &.contact-page,
+        &.about-page {
+            .text-zone {
+                position: initial;
+                transform: none;
+                width: 100%;
+                display: block;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .container.about-page h1 {
+        font-size: 28px;
+        margin-left: -10px;
+        margin-bottom: 0;
+        margin-top: -25px;
+    }
+    
+    .container.about-page p {
+        font-size: 11px;
+        margin: 2px;
     }
 }

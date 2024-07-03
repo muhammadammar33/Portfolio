@@ -1,15 +1,6 @@
 .contact-form {
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
     margin-top: 40px;
-    // padding: 20px;
-    // border: 1px solid #000;
-    // border-radius: 10px;
     width: 100%;
-    // margin: 0 auto;
-    // background-color: #f5f5f5;
 
     ul {
         list-style: none;
@@ -149,4 +140,72 @@
     position: relative;
     opacity: 0;
     animation: backInRight 1s 1.2s forwards;
+}
+
+@media screen and (max-width: 1200px) {
+    .contact-page h1 {
+        margin: 0;
+        margin-top: -20px;
+    }
+
+    .contact-page p {
+        margin: 0;
+    }
+
+    .contact-form {
+        margin-top: 10px;
+
+        input[type='text'],
+        input[type='email'] {
+            padding: 5px 10px;
+            font-size: 12px;
+        }
+
+        textarea {
+            padding: 5px 10px;
+            font-size: 12px;
+            min-height: 70px;
+        }
+
+        .flat-button {
+            padding: 5px;
+            font-size: 12px;
+        }
+    }
+
+    .contact-form ul li {
+        margin-bottom: 5px;
+    }
+
+    .map-wrap {
+        float: none;
+        margin: 0;
+        width: 100%;
+        height: 400px;
+    }
+
+    .info-map {
+        top: 300px;
+        right: 1%;
+        font-size: 9px;
+        width: 120px;
+        padding: 5px;
+
+        span {
+            font-size: 7px;
+            color: aqua;
+        }
+    }
+
+    .contact-form::before,
+    .contact-form::after {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact-page h1 {
+        font-size: 28px;
+        margin-left: -10px;
+    }
 }
