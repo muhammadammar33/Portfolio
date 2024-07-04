@@ -5,6 +5,8 @@ import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact, faHtml5, faCss3, faJsSquare, faGithub, faGitAlt, faNodeJs, faBootstrap} from '@fortawesome/free-brands-svg-icons'
 import { faDatabase, faLeaf } from '@fortawesome/free-solid-svg-icons'
+import Loader from 'react-loaders'
+import Starfield from 'react-starfield'
 
 const Skills = () => {
 
@@ -76,6 +78,13 @@ const Skills = () => {
                 </div>
 
             </div>
+            <Starfield
+                starCount={1000}
+                starColor={[255, 255, 255]}
+                speedFactor={0.05}
+                backgroundColor="black"
+            />
+            <Loader type='pacman'/>
         </>
     )
 
