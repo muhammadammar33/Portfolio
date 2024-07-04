@@ -33,7 +33,7 @@
         width: 100%;
 
         a{
-            font-size: 22px;
+            font-size: 28px;
             color: #4d4d4e;
             display: block;
             line-height: 51px;
@@ -82,6 +82,12 @@
         a.about-link {
             &::after {
                 content: 'ABOUT';
+            }
+        }
+
+        a.skills-link {
+            &::after {
+                content: 'SKILLS';
             }
         }
 

@@ -47,7 +47,8 @@
 }
 
 .about-page,
-.contact-page {
+.contact-page,
+.skills-page {
     h1 {
         font-size: 53px;
         font-family: 'Coolvetica';
@@ -156,6 +157,7 @@
 
     .about-page h1:before,
     .contact-page h1:before,
+    .skills-page h1:before,
     .top-p-tag,
     .bottom-h1-tag {
         display: none;
@@ -165,7 +167,8 @@
         position: initial;
 
         &.contact-page,
-        &.about-page {
+        &.about-page,
+        &.skills-page {
             .text-zone {
                 position: initial;
                 transform: none;
