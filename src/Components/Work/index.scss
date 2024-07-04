@@ -1,0 +1,85 @@
+.works-page {
+    h1 {
+        font-size: 53px;
+        font-family: 'Coolvetica';
+        color: #ff0000;
+        font-weight: 400;
+        margin-top: 0;
+        left: 10px;
+        margin-bottom: 40px;
+        position: relative;
+
+        &::before {
+            content: '<h1>';
+            font-family: 'La Belle Aurore';
+            color: #00ff00;
+            font-size: 18px;
+            position: absolute;
+            margin-top: -2%;
+            opacity: 0.6;
+            margin-left: -5%;
+            animation: fadeIn 1s backwards;
+        }
+    }
+
+    .bottom-h1-tag {
+        content: '';
+        font-family: 'La Belle Aurore';
+        color: #00ff00;
+        font-size: 18px;
+        position: absolute;
+        opacity: 0.6;
+        margin-left: -5%;
+        margin-top: -5%;
+        animation: fadeIn 1s backwards;
+    }
+}
+
+.work-zone {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+}
+
+.projects {
+    max-height: 70vh;
+    overflow-y: auto;
+    padding-right: 10px; // For scrollbar
+    margin-top: 20px;
+    // margin-left: 40%;
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: #2e3b4e;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1rem;
+            color: #ccc;
+            text-align: center;
+        }
+    }
+}
