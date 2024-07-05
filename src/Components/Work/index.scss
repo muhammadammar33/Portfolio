@@ -49,9 +49,8 @@
 .projects {
     max-height: 70vh;
     overflow-y: auto;
-    padding-right: 10px; // For scrollbar
+    padding-right: 10px;
     margin-top: 20px;
-    // margin-left: 40%;
 
     .project {
         display: flex;
@@ -81,5 +80,25 @@
             color: #ccc;
             text-align: center;
         }
+    }
+
+    /* Custom Scrollbar Styles */
+    &::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #1e2a38;
+        border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: linear-gradient(180deg, #ff0000, green);
+        border-radius: 10px;
+        border: 3px solid #1e2a38;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(180deg, green, #ff0000);
     }
 }
