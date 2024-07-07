@@ -78,6 +78,7 @@ const Contact = () => {
                     Pakistan
                     <br />
                     Hostel City, Islamabad
+                    <span>+92 326 7744 260</span>
                     <span>muhammadammar7747@gmail.com</span>
                 </div>
                 <div className='map-wrap'>

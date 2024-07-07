@@ -61,8 +61,8 @@
         background: #093b56;
         color: #ff0000;
         padding: 10px;
-        border: 1px solid #ff0000;
-        border-radius: 5px;
+        border: 3px solid #ff0000;
+        border-radius: 20px;
         font-size: 16px;
         cursor: pointer;
         transition: all 0.3s ease;
@@ -120,10 +120,10 @@
     animation: fadeIn 1s 1.5s forwards;
 
     span {
-        font-size: 16px;
+        font-size: 14px;
         display: block;
-        padding-top: 20px;
         color: #ff0000;
+        font-weight: 700;
     }
 }
 
