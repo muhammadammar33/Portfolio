@@ -6,8 +6,18 @@ import Loader from 'react-loaders'
 import DA from '../../assets/images/DA.jpeg'
 import Apple from '../../assets/images/Apple.png'
 import Cal from '../../assets/images/cal.png'
+import Expense from '../../assets/images/Expense.png'
+import WA from '../../assets/images/WA.png'
+import QG from '../../assets/images/QG.png'
+import CC from '../../assets/images/CC.jpeg'
 
 const projects = [
+    {
+        title: 'Cruise Crafters',
+        description: 'CruiseCrafters: PHP Laravel powers our sleek car rental site. CSS/HTML5 for design, PhpMyAdmin manages data. Streamlined booking ensuring top user experience.',
+        image: CC,
+        link: 'https://github.com/muhammadammar33/CruiseCrafters'
+    },
     {
         title: 'Desktop Assistant',
         description: 'Welcome to the future of laziness and automation! Built a desktop AI assistant that can open websites, play music, and chat like a pro using OpenAI, Weather Map, and News APIs! It\'s like having a digital butler that saves our chats in a special folder.',
@@ -21,22 +31,29 @@ const projects = [
         link: 'https://ammar-apple-clone.netlify.app/'
     },
     {
+        title: 'Expense Tracker',
+        description: 'My Expense Tracker web app! Easily record expenses in PKR, view your spending history, and keep track of total expenses. Edit or delete as needed. Manage your finances like a pro and make budgeting a breeze!',
+        image: Expense,
+        link: 'https://muhammadammar33.github.io/Expense-Tracker/'
+    },
+    {
+        title: 'Weather Web App',
+        description: 'My Weather App! Get real-time weather updates for any city worldwide with a user-friendly design, interactive icons, and detailed insights on temperature, humidity, and wind speed. Perfect for planning your day or just satisfying your weather curiosity.',
+        image: WA,
+        link: 'https://muhammadammar33.github.io/Weather-Web/'
+    },
+    {
+        title: 'Quiz Game',
+        description: 'Ultimate Quiz Challenge! Test your knowledge with our dynamic Quiz Application! Features include randomized tech questions, a timer, score tracking, immediate feedback, and restart functionality. Accessible on any device, it\'s perfect for everyone!',
+        image: QG,
+        link: 'https://muhammadammar33.github.io/Web-Quiz-Game/'
+    },
+    {
         title: 'Web Calculator',
         description: 'My Simple Web Calculator! Built with HTML, CSS, and JavaScript, it supports basic arithmetic, decimals, and has a clear button for easy resets. With robust error handling and a responsive design, it simplifies your calculations on any device. ',
         image: Cal,
         link: 'https://muhammadammar33.github.io/Calculator/'
     },
-    {
-        title: 'Project Two',
-        description: 'Description for project two.',
-        image: '/path/to/image2.png'
-    },
-    {
-        title: 'Project Two',
-        description: 'Description for project two.',
-        image: '/path/to/image2.png'
-    },
-    // Add more projects here
 ];
 
 const Work = () => {

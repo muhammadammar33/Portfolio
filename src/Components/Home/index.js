@@ -8,6 +8,7 @@ import AnimatedLetters from "../AnimatedLetters/index"
 import Logo from "./Logo/index"
 import Loader from 'react-loaders'
 import Starfield from 'react-starfield'
+import resume from "../../assets/doc/resume.pdf"
 
 const Home = () => {
 
@@ -46,7 +47,7 @@ const Home = () => {
                     <h2>Full Stack Developer</h2>
                     <span className='bottom-p-tag'>&lt;/p&gt;</span>
                     <Link to="/contact" className="flat-button">CONTACT ME</Link>
-                    <Link to="/contact" className="flat-button">MY RESUME</Link>
+                    <Link to={resume} target="_blank" className="flat-button">MY RESUME</Link>
                 </div>
                 <Logo />
             </div>

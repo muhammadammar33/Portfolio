@@ -107,8 +107,8 @@
 .info-map {
     position: absolute;
     background-color: #093b56;
-    top: 45px;
-    right: 20%;
+    top: 15px;
+    right: 1%;
     z-index: 1100;
     width: 267px;
     padding: 20px;
@@ -203,7 +203,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
     .contact-page h1 {
         font-size: 28px;
         margin-left: -10px;
