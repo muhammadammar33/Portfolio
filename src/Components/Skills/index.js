@@ -7,6 +7,8 @@ import { faReact, faHtml5, faCss3, faJsSquare, faGithub, faGitAlt, faNodeJs, faB
 import { faDatabase, faLeaf } from '@fortawesome/free-solid-svg-icons'
 import Loader from 'react-loaders'
 import Starfield from 'react-starfield'
+import resume from "../../assets/doc/resume.pdf"
+import { Link } from "react-router-dom";
 
 const Skills = () => {
 
@@ -55,9 +57,8 @@ const Skills = () => {
                         Visit my 
                         <a target='_blank' className='link' rel='noreferrer' href='https://www.linkedin.com/in/muhammad-ammar-cheema/'>
                         LinkedIn </a> profile for more details. Also you can checkout my cv on this
-                        <a target='_blank' className='link' rel='noreferrer' href='#'>
-                        link </a>, or feel free to give a peek on some of my
-                        <a target='_blank' className='link' rel='noreferrer' href='#'>
+                        <Link className='link' to={resume} target="_blank">link</Link>, or feel free to give a peek on some of my
+                        <a target='_blank' className='link' rel='noreferrer' href='https://github.com/muhammadammar33'>
                         Work</a>.
                     </p>
                 </div>
