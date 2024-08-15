@@ -10,8 +10,15 @@ import Expense from '../../assets/images/Expense.png'
 import WA from '../../assets/images/WA.png'
 import QG from '../../assets/images/QG.png'
 import CC from '../../assets/images/CC.jpeg'
+import PP from '../../assets/images/PP.jpg'
 
 const projects = [
+    {
+        title: 'Persperctive Pulse',
+        description: 'Perspective Pulse dive into the mysterious world of news and cryptocurrencies. Ever wondered which coins are hot and which ones are not? Our top 10 crypto list will keep you in the loop, whether you’re a seasoned crypto-guy or just crypto-curious. From Bitcoin to whatever-the-coin-of-the-week is, Perspective Pulse got the lowdown. Think of it as a cheat sheet for your digital treasure hunt.',
+        image: PP,
+        link: 'https://perspectivepulse.onrender.com/'
+    },
     {
         title: 'Cruise Crafters',
         description: 'CruiseCrafters: PHP Laravel powers our sleek car rental site. CSS/HTML5 for design, PhpMyAdmin manages data. Streamlined booking ensuring top user experience.',
